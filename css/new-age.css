@@ -116,9 +116,7 @@ section h2 {
     border-color: transparent;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
-    color: fade(white, 70%);
-  }
+
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: white;
   }
@@ -155,10 +153,7 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
-  background: url("../img/bg-store.jpg"), #7b4397;
-  background: url("../img/bg-store.jpg"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-store.jpg"), linear-gradient(to left, #7b4397, #dc2430);
+  background-color: transparent;
   
 }
 
@@ -168,13 +163,6 @@ header.masthead .header-content {
   text-align: center;
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
-  background-color: rgba(64, 64, 64, 0.8);
-  padding: 40px;
-  border-radius: 15px;
-  height: 100%;
-}
 
 header.masthead .device-container {
   max-width: 325px;
@@ -456,5 +444,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-image:linear-gradient(to bottom, #000000b8, #0000008c)
   }
 }
-  
+
+#header-overlay {
+  position: absolute;
+  height: 100%;
+  width: 650px;
+  margin-left: 30px;
+  background-color: rgba(0, 0, 0, 0.47);
+  transform: skewX(-8deg);
+  transform-origin: top right;
+
 }
