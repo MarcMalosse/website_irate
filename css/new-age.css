@@ -86,7 +86,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 28px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -435,7 +435,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background-color: #FFF;
 }
 #header-logo{
-  height: 60px;
+  height: 120px;
   width: auto;
 }
 @media (min-width: 1024px) {
@@ -454,4 +454,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   transform: skewX(-8deg);
   transform-origin: top right;
 
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
 }
